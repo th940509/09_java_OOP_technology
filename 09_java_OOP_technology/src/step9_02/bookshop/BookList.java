@@ -26,7 +26,7 @@ public class BookList {
 		int total = 0;
 		for(int i=0 ; i<bookList.size() ; i++) { // i=0; i<6; i++ -> i = 0,1,2,3,4,5
 			str += bookList.get(i)  + "\n"; 
-			total += bookList.get(i).getPrsice(); 
+			total += bookList.get(i).getPrice(); 
 		}
 //		for(BookVO book : bookList) {
 //			str += book + "\n";
@@ -38,7 +38,7 @@ public class BookList {
 		str += "                      합계 금액 : " + df.format(total) + "\n";
 		str += "==========================================================\n";
 		
-		return str;
+		return str;  // toString return값 출력
 	}
 
 //	책 1권의 정보(BookVO 클래스 객체)를 인수로 넘겨받아 bookList ArrayList에 저장하는 메소드

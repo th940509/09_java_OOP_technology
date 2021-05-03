@@ -13,7 +13,7 @@ public class BookVO {
 	private Date date;			// 출판일
 	private int price;			// 가격
 	
-	public BookVO() {
+	public BookVO() { // 생략 가능
 		// TODO Auto-generated constructor stub
 	}
 	
