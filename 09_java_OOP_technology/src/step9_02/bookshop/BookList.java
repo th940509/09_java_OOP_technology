@@ -24,9 +24,9 @@ public class BookList {
 		str += "==========================================================\n";
 		
 		int total = 0;
-		for(int i=0 ; i<bookList.size() ; i++) {
-			str += bookList.get(i)  + "\n";
-			total += bookList.get(i).getPrice();
+		for(int i=0 ; i<bookList.size() ; i++) { // i=0; i<6; i++ -> i = 0,1,2,3,4,5
+			str += bookList.get(i)  + "\n"; 
+			total += bookList.get(i).getPrsice(); 
 		}
 //		for(BookVO book : bookList) {
 //			str += book + "\n";
@@ -42,8 +42,8 @@ public class BookList {
 	}
 
 //	책 1권의 정보(BookVO 클래스 객체)를 인수로 넘겨받아 bookList ArrayList에 저장하는 메소드
-	public void addBook(BookVO vo) { // book1 대입 -> book2 대입 -> book3 대입 -> //자바4...-> 자바5..-> 자바6..
-		bookList.add(vo); // bookList에 add(book1) 추가 -> book2추가 -> book3추가  -> //자바4...-> 자바5..-> 자바6..
+	public void addBook(BookVO vo) { 
+		bookList.add(vo); 
 	}
 	
 }

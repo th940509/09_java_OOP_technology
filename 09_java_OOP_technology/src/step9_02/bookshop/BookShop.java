@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class BookShop {
 
-	public static void main(String[] args) { // main 찾기
+	public static void main(String[] args) { // 1. main 찾기
 		
 		BookList bookList = new BookList(); // 객체대입
 		

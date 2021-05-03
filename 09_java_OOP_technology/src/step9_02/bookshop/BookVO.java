@@ -66,15 +66,16 @@ public class BookVO {
 	}
 	
 	@Override
-	public String toString() {
+	public String toString() { // private 내부에서는 접근 가능...
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd(E)");
 		DecimalFormat df = new DecimalFormat("#,##0원");
 		
 //		return "BookVO [title=" + title + ", author=" + author + ", publisher=" + publisher + ", date=" + sdf.format(date)
 //				+ ", price=" + df.format(price) + "]";
+		
 		return String.format("%s %s %s %s %s", title, author, publisher, sdf.format(date), df.format(price));
-	}
+	} // %s 서식문자 출력 (뒤에 있는 문자열을 출력)
 	
 }
 
