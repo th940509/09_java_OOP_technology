@@ -12,9 +12,11 @@ public class StudentRepository {
 	public static HashMap<String, StudentVO> getStDB() {
 		return stDB;
 	}
-
+	// private 변수(HashMap)을 외부로 꺼내주는 메서드
+	
 	public static void setStDB(HashMap<String, StudentVO> stDB) {
 		StudentRepository.stDB = stDB;
 	}	
+	// private 변수(HashMap)을 외부에서 수정하는 메서드
 	
 }

@@ -25,6 +25,6 @@ public class StudentSelect {
 		
 		StudentVO studentVO = studentDAO.select(id);
 		return studentVO != null? true:false;
-		
+		// studnetVO가 null이 아니면 true , null이면 false
 	}
 }
