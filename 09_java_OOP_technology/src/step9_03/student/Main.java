@@ -1,6 +1,7 @@
 package step9_03.student;
 import java.util.Scanner;
 
+//2021/05/12 15:00 ~ 18:00 // 05/13 14:00 ~ 14:30 (분석, 코드작성)
 public class Main {
 	
 	public static void main(String[] args) {

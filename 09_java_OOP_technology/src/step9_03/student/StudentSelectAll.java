@@ -18,7 +18,7 @@ public class StudentSelectAll {
 	
 	public void printAll() {
 		
-		Map<String , StudentVO> map = studentDAO.getStudentDB();
+		Map<String , StudentVO> map = studentDAO.getStudentDB(); // Hashmap 변수 map에 stDB값 대입
 		
 		for (String key : map.keySet()) { // Hashmap 의 모든 key 얻어오기
 			map.get(key).printOneInfo();

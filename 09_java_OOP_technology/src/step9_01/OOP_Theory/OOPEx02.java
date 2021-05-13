@@ -24,7 +24,7 @@ package step9_01.OOP_Theory;
  * 
  * */
 
-class Character {
+class Character { // 부모 클래스
 	int level = 1;
 	int power =10;
 	int dex = 10;
@@ -49,8 +49,8 @@ class Character {
 	}
  }
 
-class Warrior extends Character {}
-class Wizard extends Character {}
+class Warrior extends Character {} // 부모 클래스를 상속받은 자식 클래스
+class Wizard extends Character {} // 부모 클래스를 상속받은 자식 클래스
 
 public class OOPEx02 {
 
