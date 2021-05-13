@@ -96,10 +96,11 @@ public class Main {
 				
 				StudentVO st = stSelect.select(id);
 				
-				if (st != null) st.printOneInfo();
+				if (st != null) st.printOneInfo(); // StudentVO의 클래스 변수 st가 null이 아닐경우
+				// printOneInfo 출력 매서드로 이동
 			
 			}
-			else if (selectMenu == 5) {
+			else if (selectMenu == 5) { // 전체 출력
 				
 				StudentSelectAll stAll = controller.getSelectAll();
 				stAll.printAll();

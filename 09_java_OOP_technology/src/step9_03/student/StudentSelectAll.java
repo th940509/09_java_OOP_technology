@@ -20,7 +20,7 @@ public class StudentSelectAll {
 		
 		Map<String , StudentVO> map = studentDAO.getStudentDB();
 		
-		for (String key : map.keySet()) {
+		for (String key : map.keySet()) { // Hashmap 의 모든 key 얻어오기
 			map.get(key).printOneInfo();
 		}
 		
