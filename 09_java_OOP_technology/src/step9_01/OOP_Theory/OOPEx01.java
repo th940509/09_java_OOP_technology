@@ -30,11 +30,11 @@ class Test3{
 		this.age = age;
 	}
 
-	// toString 자동 완성 기능: 이클립스 좌측 상단 Source . Generate Construct toString()
 	@Override
 	public String toString() {
 		return "Test3 [name=" + name + ", age=" + age + "]";
 	}
+	
 	
 	
 	
